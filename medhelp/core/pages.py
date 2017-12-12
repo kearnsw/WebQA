@@ -1,10 +1,10 @@
 from bs4 import BeautifulSoup
+from medhelp.core.user import User
 from medhelp.core.posts import Question, Answer
 import pickle as pkl
 import os
 import sys
 from random import randint
-from medhelp.core.user import User
 from tqdm import tqdm
 from multiprocessing import Pool, cpu_count
 
@@ -61,11 +61,9 @@ def find_pages(path):
 
 def process_all():
     html_pages = find_pages("/data/common/www.medhelp.org/posts/")
+    
     with Pool(cpu_count()) as p:
         pages = p.map(load, html_pages)
-    print(pages)
-    #for idx, page in enumerate(tqdm(html_pages)):
-    #    pages.append(load(page))
 
     with open("qa.pkl", "wb") as f:
         pkl.dump(pages, f)
@@ -74,28 +72,3 @@ def process_all():
 if __name__ == "__main__":
     process_all()
 
-    with open("qa.pkl", "rb") as f:
-        pages = pkl.load(f)
-        answer_count = 0
-        question_count = 0
-        is_medical_count = 0
-        for page in pages:
-            if page:
-                question_count += 1
-                for a in page.answers:
-                    answer_count += 1
-                    if a.user.isMedical:
-                        is_medical_count += 1
-                        print(page.question.text, a.text)
-            else:
-                continue
-
-    print(question_count, answer_count, is_medical_count)
-
-    rand_page = pages[randint(0, len(pages) - 1)]
-    rand_page.print()
-
-    page = load("/data/common/www.medhelp.org/posts/Diabetes/headache/show/2163033.html")
-    page.question.print()
-    print(page.answers[0].user.isMedical)
-    print(page.answers[0].text)
