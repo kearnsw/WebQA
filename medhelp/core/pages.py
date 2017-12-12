@@ -6,7 +6,7 @@ import sys
 from random import randint
 from medhelp.core.user import User
 from tqdm import tqdm
-from multiprocessing import Pool
+from multiprocessing import Pool, cpu_count
 
 class QA_Page:
     def __init__(self):
@@ -61,7 +61,7 @@ def find_pages(path):
 
 def process_all():
     html_pages = find_pages("/data/common/www.medhelp.org/posts/")
-    with Pool(4) as p:
+    with Pool(cpu_count()) as p:
         pages = p.map(load, html_pages)
     print(pages)
     #for idx, page in enumerate(tqdm(html_pages)):
@@ -72,7 +72,7 @@ def process_all():
 
 
 if __name__ == "__main__":
-    # process_all()
+    process_all()
 
     with open("qa.pkl", "rb") as f:
         pages = pkl.load(f)
