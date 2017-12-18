@@ -6,6 +6,7 @@ import medhelp.core.posts
 from medhelp.core import posts
 from medhelp.core import user
 import pandas as pd
+import sys
 
 nlp = spacy.load("en_core_web_lg")
 
@@ -25,7 +26,9 @@ def preprocess(question):
 
 
 def batch_tokenize(iterable):
-    with Pool(cpu_count()) as p:
+    sys.stdout.write("Tokenizing questions...")
+    sys.stdout.flush()    
+    with Pool(10) as p:
         tokenized_sentences = p.map(preprocess, iterable)
     return flatten(tokenized_sentences)
 
@@ -36,7 +39,7 @@ def flatten(list_of_lists):
 
 if __name__ == "__main__":
 
-    pages = pd.read_pickle("qa.pkl")
+    pages = pd.read_pickle("/gscratch/stf/kearnsw/medhelp/medhelp/core/qa.pkl")
     questions = []
     answers = []
     for page in pages:
@@ -53,5 +56,7 @@ if __name__ == "__main__":
     tokenized_sentences = batch_tokenize(qs)
     print(len(tokenized_sentences))
     num_cpus = cpu_count()
+    sys.stdout.write("Training Word2Vec model...")
+    sys.stdout.flush()
     model = Word2Vec(tokenized_sentences, size=100, window=3, sg=1, workers=num_cpus)
     model.save("webQA.bin")
