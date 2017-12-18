@@ -1,4 +1,5 @@
-import gensim
+from gensim.models import Word2Vec
+import multiprocessing
 import spacy
 import pickle as pkl
 from medhelp.core.pages import QA_Page
@@ -40,3 +41,6 @@ if __name__ == "__main__":
 		sentences = split_sentences(q)
 		tokenized_sentences += [tokenize(sentence.as_doc()) for sentence in sentences]
 	print(len(tokenized_sentences))
+	num_cpus = multiprocessing.cpu_count()
+	model = Word2Vec(tokenized_sentences, size=100, window=3, sg=1, workers=num_cpus)
+	model.save("webQA.bin")	
