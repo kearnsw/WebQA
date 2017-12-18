@@ -17,19 +17,23 @@ def split_sentences(raw_text):
 
 
 def tokenize(doc):
-    return [token for token in doc]
+    return [token.text for token in doc]
 
 
-def preprocess(question):
-    sentences = split_sentences(question)
-    return [tokenize(sentence.as_doc()) for sentence in sentences]
+def preprocess(text):
+    return [tokenize(sentence.as_doc()) for sentence in split_sentences(text)]
 
 
-def batch_tokenize(iterable):
+def batch_tokenize(list_of_sentences):
+    """
+
+    :param list_of_sentences: a list of sentences
+    :return: a list of t
+    """
     sys.stdout.write("Tokenizing questions...")
-    sys.stdout.flush()    
+    sys.stdout.flush()
     with Pool(10) as p:
-        tokenized_sentences = p.map(preprocess, iterable)
+        tokenized_sentences = p.map(preprocess, list_of_sentences)
     return flatten(tokenized_sentences)
 
 
@@ -53,6 +57,7 @@ if __name__ == "__main__":
 
     qs = list(data["Question"])
     print(len(questions))
+
     tokenized_sentences = batch_tokenize(qs)
     print(len(tokenized_sentences))
     num_cpus = cpu_count()
