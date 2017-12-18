@@ -52,9 +52,10 @@ if __name__ == "__main__":
     data = pd.DataFrame({"Question": questions, "Answer": answers})
 
     qs = list(data["Question"])
-    print(len(questions))
     tokenized_sentences = batch_tokenize(qs)
-    print(len(tokenized_sentences))
+    with open("tokens.out", "wb") as f:
+        pkl.dump(tokenized_sentences, f, protocol=4)
+
     num_cpus = cpu_count()
     sys.stdout.write("Training Word2Vec model...")
     sys.stdout.flush()
