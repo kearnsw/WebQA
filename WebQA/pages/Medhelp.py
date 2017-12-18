@@ -1,19 +1,21 @@
 from bs4 import BeautifulSoup
-from medhelp.core.user import User
-from medhelp.core.posts import Question, Answer
+from WebQA.core.User import User
+from WebQA.core.Post import Question, Answer
+from WebQA.core import QA_Page
 import pickle as pkl
 import os
 from multiprocessing import Pool, cpu_count
 from argparse import ArgumentParser
 
 
-class QA_Page:
+class MedhelpPage(QA_Page):
+
     def __init__(self):
+        super().__init__()
         self.question = ""
         self.answers = []
 
     def parse(self, input_file):
-
         # Parse HTML into BeautifulSoup object
         with open(input_file, "r") as f:
             soup = BeautifulSoup(f, "html.parser")
@@ -45,12 +47,6 @@ class QA_Page:
                 else:
                     self.answers.append(Answer(text, user))
             return self
-
-    def print(self):
-        print("Question: {0}".format(self.question.text))
-        for idx, answer in enumerate(self.answers):
-            print("Answer #{0}: {1}".format(idx, answer.text))
-        print("\n")
 
 
 def load(input_file):
@@ -95,7 +91,7 @@ def process_all(input_dir, output_file):
 if __name__ == "__main__":
 
     cli_parser = ArgumentParser()
-    cli_parser.add_argument("-d", "--input_dir", default="/data/common/www.medhelp.org/posts/",
+    cli_parser.add_argument("-d", "--input_dir", default="/data/common/www.WebQA.org/posts/",
                             help="directory containing Medhelp posts")
     cli_parser.add_argument("-o", "--output", default="qa.pkl", help="file to write QA data extracted from posts")
     args = cli_parser.parse_args()

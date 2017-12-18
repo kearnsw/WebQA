@@ -1,14 +1,16 @@
 from bs4 import BeautifulSoup
-from WebQA.core.user import User
-from WebQA.core.posts import Question, Answer
+from WebQA.core.User import User
+from WebQA.core.Post import Question, Answer
+from WebQA.core import QA_Page
 import pickle as pkl
 import os
 from multiprocessing import Pool, cpu_count
 from argparse import ArgumentParser
 
 
-class QA_Page:
+class HealthtapPage(QA_Page):
     def __init__(self):
+        super().__init__()
         self.question = ""
         self.answers = []
 
@@ -41,7 +43,7 @@ def load(input_file):
     :param input_file: filename of post page to process
     :return: A QA_Page object that contains the post question and answers
     """
-    page = QA_Page()
+    page = HealthtapPage()
     return page.parse(input_file)
 
 

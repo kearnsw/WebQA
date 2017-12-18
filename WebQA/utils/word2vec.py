@@ -1,14 +1,11 @@
-from gensim.models import Word2Vec
-from multiprocessing import Pool, cpu_count
-import spacy
-from WebQA.core.pages import QA_Page
-import WebQA.core.posts
-from WebQA.core import posts
-from WebQA.core import user
-import pandas as pd
-import sys
 import os
 import pickle as pkl
+import sys
+from multiprocessing import Pool, cpu_count
+
+import pandas as pd
+import spacy
+from gensim.models import Word2Vec
 
 nlp = spacy.load("en_core_web_lg")
 
