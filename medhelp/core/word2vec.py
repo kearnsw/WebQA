@@ -7,6 +7,7 @@ from medhelp.core import posts
 from medhelp.core import user
 import pandas as pd
 import sys
+import pickle as pkl
 
 nlp = spacy.load("en_core_web_lg")
 
@@ -30,7 +31,7 @@ def batch_tokenize(list_of_sentences):
     :param list_of_sentences: a list of sentences
     :return: a list of t
     """
-    sys.stdout.write("Tokenizing questions...")
+    sys.stdout.write("Tokenizing {0} questions...".format(len(list_of_sentences)))
     sys.stdout.flush()
     with Pool(10) as p:
         tokenized_sentences = p.map(preprocess, list_of_sentences)
@@ -56,10 +57,11 @@ if __name__ == "__main__":
     data = pd.DataFrame({"Question": questions, "Answer": answers})
 
     qs = list(data["Question"])
-    print(len(questions))
 
     tokenized_sentences = batch_tokenize(qs)
-    print(len(tokenized_sentences))
+    with open("tokens.out", "wb") as f:
+        pkl.dump(tokenized_sentences, f, protocol=4)
+
     num_cpus = cpu_count()
     sys.stdout.write("Training Word2Vec model...")
     sys.stdout.flush()
