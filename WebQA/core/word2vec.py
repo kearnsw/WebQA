@@ -1,12 +1,13 @@
 from gensim.models import Word2Vec
 from multiprocessing import Pool, cpu_count
 import spacy
-from medhelp.core.pages import QA_Page
-import medhelp.core.posts
-from medhelp.core import posts
-from medhelp.core import user
+from WebQA.core.pages import QA_Page
+import WebQA.core.posts
+from WebQA.core import posts
+from WebQA.core import user
 import pandas as pd
 import sys
+import os
 import pickle as pkl
 
 nlp = spacy.load("en_core_web_lg")
@@ -44,23 +45,27 @@ def flatten(list_of_lists):
 
 if __name__ == "__main__":
 
-    pages = pd.read_pickle("/gscratch/stf/kearnsw/medhelp/medhelp/core/qa.pkl")
-    questions = []
-    answers = []
-    for page in pages:
-        if page and page.question != "":
-            if page.answers:
-                medical_answers = [answer for answer in page.answers]
-                questions.append(page.question.text.strip())
-                answers.append(medical_answers[0].text.strip())
+    if os.path.isfile("tokens.out"):
+        with open("tokens.out", "rb") as f:
+            tokenized_sentences = pkl.load(f)
+    else:
+        pages = pd.read_pickle("/gscratch/stf/kearnsw/WebQA/WebQA/core/qa.pkl")
+        questions = []
+        answers = []
+        for page in pages:
+            if page and page.question != "":
+                if page.answers:
+                    medical_answers = [answer for answer in page.answers]
+                    questions.append(page.question.text.strip())
+                    answers.append(medical_answers[0].text.strip())
 
-    data = pd.DataFrame({"Question": questions, "Answer": answers})
+        data = pd.DataFrame({"Question": questions, "Answer": answers})
 
-    qs = list(data["Question"])
+        qs = list(data["Question"])
 
-    tokenized_sentences = batch_tokenize(qs)
-    with open("tokens.out", "wb") as f:
-        pkl.dump(tokenized_sentences, f, protocol=4)
+        tokenized_sentences = batch_tokenize(qs)
+        with open("tokens.out", "wb") as f:
+            pkl.dump(tokenized_sentences, f, protocol=4)
 
     num_cpus = cpu_count()
     sys.stdout.write("Training Word2Vec model...")
