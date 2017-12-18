@@ -6,5 +6,5 @@
 
 ## Preprocess Forum Posts
 
-`python -m medhelp.core.pages -d "/data/dir" -o "data/qa.pkl"`
+`python -m WebQA.core.pages -d "/data/dir" -o "data/qa.pkl"`
 
