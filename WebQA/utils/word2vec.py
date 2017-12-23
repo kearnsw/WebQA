@@ -43,11 +43,12 @@ def flatten(list_of_lists):
 if __name__ == "__main__":
 
     if os.path.isfile("tokens.out"):
+        print("Loading tokens from file...")
         with open("tokens.out", "rb") as f:
             tokenized_sentences = pkl.load(f)
     else:
         qs = []
-        for arg in sys.argv:
+        for arg in sys.argv[1:]:
             print("Reading {0}...".format(arg))
             pages = pd.read_pickle(arg)
             questions = []
