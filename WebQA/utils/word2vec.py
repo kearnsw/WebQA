@@ -46,19 +46,22 @@ if __name__ == "__main__":
         with open("tokens.out", "rb") as f:
             tokenized_sentences = pkl.load(f)
     else:
-        pages = pd.read_pickle("/gscratch/stf/kearnsw/WebQA/WebQA/core/qa.pkl")
-        questions = []
-        answers = []
-        for page in pages:
-            if page and page.question != "":
-                if page.answers:
-                    medical_answers = [answer for answer in page.answers]
-                    questions.append(page.question.text.strip())
-                    answers.append(medical_answers[0].text.strip())
+        qs = []
+        for arg in sys.argv:
+            print("Reading {0}...".format(arg))
+            pages = pd.read_pickle(arg)
+            questions = []
+            answers = []
+            for page in pages:
+                if page and page.question != "":
+                    if page.answers:
+                        medical_answers = [answer for answer in page.answers]
+                        questions.append(page.question.text.strip())
+                        answers.append(medical_answers[0].text.strip())
 
-        data = pd.DataFrame({"Question": questions, "Answer": answers})
+            data = pd.DataFrame({"Question": questions, "Answer": answers})
 
-        qs = list(data["Question"])
+            qs += list(data["Question"])
 
         tokenized_sentences = batch_tokenize(qs)
         with open("tokens.out", "wb") as f:
