@@ -2,7 +2,10 @@
 
 ## Installation
 
-`python setup.py develop`
+```shell
+git clone https://github.com/kearnsw/WebQA.git && cd WebQA
+python setup.py develop
+```
 
 ## Preprocess Forum Posts
 
