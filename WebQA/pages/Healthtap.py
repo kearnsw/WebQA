@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from WebQA.core.User import User
 from WebQA.core.Post import Question, Answer
-from WebQA.core import QA_Page
+from WebQA.core.QA_Page import QA_Page
 import pickle as pkl
 import os
 from multiprocessing import Pool, cpu_count
