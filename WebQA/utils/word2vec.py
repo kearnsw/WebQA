@@ -2,7 +2,8 @@ import os
 import pickle as pkl
 import sys
 from multiprocessing import Pool, cpu_count
-
+from WebQA.pages.Healthtap import HealthtapPage
+from WebQA.pages.Medhelp import MedhelpPage
 import pandas as pd
 import spacy
 from gensim.models import Word2Vec
@@ -52,18 +53,12 @@ if __name__ == "__main__":
             print("Reading {0}...".format(arg))
             pages = pd.read_pickle(arg)
             questions = []
-            answers = []
             for page in pages:
                 if page and page.question != "":
-                    if page.answers:
-                        medical_answers = [answer for answer in page.answers]
-                        questions.append(page.question.text.strip())
-                        answers.append(medical_answers[0].text.strip())
+                   questions.append(page.question.text.strip())
 
-            data = pd.DataFrame({"Question": questions, "Answer": answers})
-
-            qs += list(data["Question"])
-
+            qs += list(questions)
+        
         tokenized_sentences = batch_tokenize(qs)
         with open("tokens.out", "wb") as f:
             pkl.dump(tokenized_sentences, f, protocol=4)

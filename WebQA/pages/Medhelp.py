@@ -59,11 +59,11 @@ def load(input_file):
 if __name__ == "__main__":
 
     cli_parser = ArgumentParser()
-    cli_parser.add_argument("-d", "--input_dir", default="/data/common/www.WebQA.org/posts/",
+    cli_parser.add_argument("-d", "--input_dir", default="/data/common/www.medhelp.org/posts/",
                             help="directory containing Medhelp posts")
     cli_parser.add_argument("-o", "--output", default="qa.pkl", help="file to write QA data extracted from posts")
     args = cli_parser.parse_args()
 
-    process_all(args.input_dir, args.output, MedhelpPage().parse)
+    process_all(args.input_dir, args.output, load)
 
 

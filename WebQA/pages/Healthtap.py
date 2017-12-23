@@ -40,8 +40,7 @@ def load(input_file):
     :param input_file: filename of post page to process
     :return: A QA_Page object that contains the post question and answers
     """
-    page = HealthtapPage()
-    return page.parse(input_file)
+    return HealthtapPage().parse(input_file)
 
 
 if __name__ == "__main__":
@@ -53,6 +52,6 @@ if __name__ == "__main__":
     cli_parser.add_argument("-o", "--output", default="healthtap.pkl", help="file to write QA data extracted from posts")
     args = cli_parser.parse_args()
 
-    process_all(args.input_dir, args.output, HealthtapPage().parse)
+    process_all(args.input_dir, args.output, load)
 
 
