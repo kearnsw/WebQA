@@ -55,7 +55,7 @@ if __name__ == "__main__":
             questions = []
             for page in pages:
                 if page and page.question != "":
-                   questions.append(page.question.text.strip())
+                   questions.append(page.question.text.lower().strip())
 
             qs += list(questions)
         
@@ -67,4 +67,4 @@ if __name__ == "__main__":
     sys.stdout.write("Training Word2Vec model...")
     sys.stdout.flush()
     model = Word2Vec(tokenized_sentences, size=100, window=3, sg=1, workers=num_cpus)
-    model.save("webQA.bin")
+    model.wv.save_word2vec_format("webQA.txt", binary=False)
