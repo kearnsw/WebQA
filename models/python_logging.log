@@ -1,0 +1,308 @@
+2018-01-28 14:14:20,394 - INFO - allennlp.common.params - dataset_reader.type = seq2seq
+2018-01-28 14:14:20,394 - INFO - allennlp.common.params - dataset_reader.source_tokenizer = None
+2018-01-28 14:14:20,394 - INFO - allennlp.common.params - dataset_reader.target_tokenizer = None
+2018-01-28 14:14:20,394 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.type = single_id
+2018-01-28 14:14:20,395 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.namespace = source_tokens
+2018-01-28 14:14:20,395 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:14:20,395 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.type = single_id
+2018-01-28 14:14:20,395 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.namespace = target_tokens
+2018-01-28 14:14:20,395 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:14:23,108 - INFO - allennlp.common.params - train_data_path = ~/hyak_training_package/WebQA/corpus/demo_train.tsv
+2018-01-28 14:14:23,108 - INFO - allennlp.commands.train - Reading training data from ~/hyak_training_package/WebQA/corpus/demo_train.tsv
+2018-01-28 14:26:43,142 - INFO - allennlp.common.params - dataset_reader.type = seq2seq
+2018-01-28 14:26:43,142 - INFO - allennlp.common.params - dataset_reader.source_tokenizer = None
+2018-01-28 14:26:43,142 - INFO - allennlp.common.params - dataset_reader.target_tokenizer = None
+2018-01-28 14:26:43,143 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.type = single_id
+2018-01-28 14:26:43,143 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.namespace = source_tokens
+2018-01-28 14:26:43,143 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:26:43,143 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.type = single_id
+2018-01-28 14:26:43,143 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.namespace = target_tokens
+2018-01-28 14:26:43,143 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:26:45,807 - INFO - allennlp.common.params - train_data_path = test/WebQA/corpus/demo_train.tsv
+2018-01-28 14:26:45,807 - INFO - allennlp.commands.train - Reading training data from test/WebQA/corpus/demo_train.tsv
+2018-01-28 14:27:32,481 - INFO - allennlp.common.params - dataset_reader.type = seq2seq
+2018-01-28 14:27:32,481 - INFO - allennlp.common.params - dataset_reader.source_tokenizer = None
+2018-01-28 14:27:32,482 - INFO - allennlp.common.params - dataset_reader.target_tokenizer = None
+2018-01-28 14:27:32,482 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.type = single_id
+2018-01-28 14:27:32,482 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.namespace = source_tokens
+2018-01-28 14:27:32,482 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:27:32,482 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.type = single_id
+2018-01-28 14:27:32,482 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.namespace = target_tokens
+2018-01-28 14:27:32,482 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:27:35,285 - INFO - allennlp.common.params - train_data_path = tests/WebQA/corpus/demo_train.tsv
+2018-01-28 14:27:35,286 - INFO - allennlp.commands.train - Reading training data from tests/WebQA/corpus/demo_train.tsv
+2018-01-28 14:32:37,837 - INFO - allennlp.common.params - dataset_reader.type = seq2seq
+2018-01-28 14:32:37,837 - INFO - allennlp.common.params - dataset_reader.source_tokenizer = None
+2018-01-28 14:32:37,837 - INFO - allennlp.common.params - dataset_reader.target_tokenizer = None
+2018-01-28 14:32:37,837 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.type = single_id
+2018-01-28 14:32:37,837 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.namespace = source_tokens
+2018-01-28 14:32:37,838 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:32:37,838 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.type = single_id
+2018-01-28 14:32:37,838 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.namespace = target_tokens
+2018-01-28 14:32:37,838 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:32:40,463 - INFO - allennlp.common.params - train_data_path = ~/allennlp/tests/WebQA/corpus/demo_train.tsv
+2018-01-28 14:32:40,463 - INFO - allennlp.commands.train - Reading training data from ~/allennlp/tests/WebQA/corpus/demo_train.tsv
+2018-01-28 14:35:07,039 - INFO - allennlp.common.params - dataset_reader.type = seq2seq
+2018-01-28 14:35:07,039 - INFO - allennlp.common.params - dataset_reader.source_tokenizer = None
+2018-01-28 14:35:07,039 - INFO - allennlp.common.params - dataset_reader.target_tokenizer = None
+2018-01-28 14:35:07,040 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.type = single_id
+2018-01-28 14:35:07,040 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.namespace = source_tokens
+2018-01-28 14:35:07,040 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:35:07,040 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.type = single_id
+2018-01-28 14:35:07,040 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.namespace = target_tokens
+2018-01-28 14:35:07,040 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:35:09,650 - INFO - allennlp.common.params - train_data_path = ~/allennlp/tests/WebQA/corpus/demo_train.tsv
+2018-01-28 14:35:09,650 - INFO - allennlp.commands.train - Reading training data from ~/allennlp/tests/WebQA/corpus/demo_train.tsv
+2018-01-28 14:36:51,108 - INFO - allennlp.common.params - dataset_reader.type = seq2seq
+2018-01-28 14:36:51,108 - INFO - allennlp.common.params - dataset_reader.source_tokenizer = None
+2018-01-28 14:36:51,108 - INFO - allennlp.common.params - dataset_reader.target_tokenizer = None
+2018-01-28 14:36:51,108 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.type = single_id
+2018-01-28 14:36:51,108 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.namespace = source_tokens
+2018-01-28 14:36:51,109 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:36:51,109 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.type = single_id
+2018-01-28 14:36:51,109 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.namespace = target_tokens
+2018-01-28 14:36:51,109 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:36:53,691 - INFO - allennlp.common.params - train_data_path = /Users/leoliu/hyak_training_package/WebQA/corpus/demo_train.tsv
+2018-01-28 14:36:53,691 - INFO - allennlp.commands.train - Reading training data from /Users/leoliu/hyak_training_package/WebQA/corpus/demo_train.tsv
+2018-01-28 14:36:53,692 - INFO - allennlp.data.dataset_readers.seq2seq - Reading instances from lines in file at: /Users/leoliu/hyak_training_package/WebQA/corpus/demo_train.tsv
+2018-01-28 14:36:53,815 - INFO - allennlp.common.params - validation_data_path = /Users/leoliu/hyak_training_package/WebQA/corpus/demo_dev.tsv
+2018-01-28 14:36:53,816 - INFO - allennlp.commands.train - Reading validation data from /Users/leoliu/hyak_training_package/WebQA/corpus/demo_dev.tsv
+2018-01-28 14:36:53,816 - INFO - allennlp.data.dataset_readers.seq2seq - Reading instances from lines in file at: /Users/leoliu/hyak_training_package/WebQA/corpus/demo_dev.tsv
+2018-01-28 14:36:53,845 - INFO - allennlp.common.params - test_data_path = None
+2018-01-28 14:36:53,845 - INFO - allennlp.commands.train - Creating a vocabulary using train, validation data.
+2018-01-28 14:36:53,846 - INFO - allennlp.common.params - vocabulary.directory_path = None
+2018-01-28 14:36:53,846 - INFO - allennlp.common.params - vocabulary.min_count = 1
+2018-01-28 14:36:53,846 - INFO - allennlp.common.params - vocabulary.max_vocab_size = None
+2018-01-28 14:36:53,846 - INFO - allennlp.common.params - vocabulary.non_padded_namespaces = ('*tags', '*labels')
+2018-01-28 14:36:53,846 - INFO - allennlp.data.vocabulary - Fitting token dictionary from dataset.
+2018-01-28 14:36:53,849 - INFO - allennlp.common.params - model.type = simple_seq2seq
+2018-01-28 14:36:53,849 - INFO - allennlp.common.params - model.source_embedder.type = basic
+2018-01-28 14:36:53,849 - INFO - allennlp.common.params - model.source_embedder.tokens.type = embedding
+2018-01-28 14:36:53,849 - INFO - allennlp.common.params - model.source_embedder.tokens.num_embeddings = 300
+2018-01-28 14:36:53,850 - INFO - allennlp.common.params - model.source_embedder.tokens.vocab_namespace = source_tokens
+2018-01-28 14:37:23,108 - INFO - allennlp.common.params - dataset_reader.type = seq2seq
+2018-01-28 14:37:23,108 - INFO - allennlp.common.params - dataset_reader.source_tokenizer = None
+2018-01-28 14:37:23,108 - INFO - allennlp.common.params - dataset_reader.target_tokenizer = None
+2018-01-28 14:37:23,109 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.type = single_id
+2018-01-28 14:37:23,109 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.namespace = source_tokens
+2018-01-28 14:37:23,109 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:37:23,109 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.type = single_id
+2018-01-28 14:37:23,109 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.namespace = target_tokens
+2018-01-28 14:37:23,110 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:37:25,745 - INFO - allennlp.common.params - train_data_path = /Users/leoliu/hyak_training_package/WebQA/corpus/demo_train.tsv
+2018-01-28 14:37:25,745 - INFO - allennlp.commands.train - Reading training data from /Users/leoliu/hyak_training_package/WebQA/corpus/demo_train.tsv
+2018-01-28 14:37:25,746 - INFO - allennlp.data.dataset_readers.seq2seq - Reading instances from lines in file at: /Users/leoliu/hyak_training_package/WebQA/corpus/demo_train.tsv
+2018-01-28 14:37:25,865 - INFO - allennlp.common.params - validation_data_path = /Users/leoliu/hyak_training_package/WebQA/corpus/demo_dev.tsv
+2018-01-28 14:37:25,865 - INFO - allennlp.commands.train - Reading validation data from /Users/leoliu/hyak_training_package/WebQA/corpus/demo_dev.tsv
+2018-01-28 14:37:25,866 - INFO - allennlp.data.dataset_readers.seq2seq - Reading instances from lines in file at: /Users/leoliu/hyak_training_package/WebQA/corpus/demo_dev.tsv
+2018-01-28 14:37:25,894 - INFO - allennlp.common.params - test_data_path = None
+2018-01-28 14:37:25,894 - INFO - allennlp.commands.train - Creating a vocabulary using train, validation data.
+2018-01-28 14:37:25,895 - INFO - allennlp.common.params - vocabulary.directory_path = None
+2018-01-28 14:37:25,895 - INFO - allennlp.common.params - vocabulary.min_count = 1
+2018-01-28 14:37:25,895 - INFO - allennlp.common.params - vocabulary.max_vocab_size = None
+2018-01-28 14:37:25,895 - INFO - allennlp.common.params - vocabulary.non_padded_namespaces = ('*tags', '*labels')
+2018-01-28 14:37:25,895 - INFO - allennlp.data.vocabulary - Fitting token dictionary from dataset.
+2018-01-28 14:37:25,897 - WARNING - root - vocabulary serialization directory /Users/leoliu/GitHub/WebQA/models/vocabulary is not empty
+2018-01-28 14:37:25,898 - INFO - allennlp.common.params - model.type = simple_seq2seq
+2018-01-28 14:37:25,898 - INFO - allennlp.common.params - model.source_embedder.type = basic
+2018-01-28 14:37:25,899 - INFO - allennlp.common.params - model.source_embedder.tokens.type = embedding
+2018-01-28 14:37:25,899 - INFO - allennlp.common.params - model.source_embedder.tokens.num_embeddings = None
+2018-01-28 14:37:25,899 - INFO - allennlp.common.params - model.source_embedder.tokens.vocab_namespace = source_tokens
+2018-01-28 14:37:25,899 - INFO - allennlp.common.params - model.source_embedder.tokens.embedding_dim = 300
+2018-01-28 14:37:25,899 - INFO - allennlp.common.params - model.source_embedder.tokens.pretrained_file = None
+2018-01-28 14:37:25,899 - INFO - allennlp.common.params - model.source_embedder.tokens.projection_dim = None
+2018-01-28 14:37:25,899 - INFO - allennlp.common.params - model.source_embedder.tokens.trainable = True
+2018-01-28 14:37:25,899 - INFO - allennlp.common.params - model.source_embedder.tokens.padding_index = None
+2018-01-28 14:37:25,899 - INFO - allennlp.common.params - model.source_embedder.tokens.max_norm = None
+2018-01-28 14:37:25,899 - INFO - allennlp.common.params - model.source_embedder.tokens.norm_type = 2.0
+2018-01-28 14:37:25,900 - INFO - allennlp.common.params - model.source_embedder.tokens.scale_grad_by_freq = False
+2018-01-28 14:37:25,900 - INFO - allennlp.common.params - model.source_embedder.tokens.sparse = False
+2018-01-28 14:37:25,901 - INFO - allennlp.common.params - model.encoder.type = intra_sentence_attention
+2018-01-28 14:37:25,901 - INFO - allennlp.common.params - model.encoder.input_dim = 300
+2018-01-28 14:37:25,901 - INFO - allennlp.common.params - model.encoder.projection_dim = None
+2018-01-28 14:37:25,901 - INFO - allennlp.common.params - model.encoder.similarity_function.type = dot_product
+2018-01-28 14:37:25,901 - INFO - allennlp.common.params - model.encoder.similarity_function.scale_output = False
+2018-01-28 14:37:25,901 - INFO - allennlp.common.params - model.encoder.num_attention_heads = 1
+2018-01-28 14:37:25,901 - INFO - allennlp.common.params - model.encoder.combination = 1,2
+2018-01-28 14:38:45,690 - INFO - allennlp.common.params - dataset_reader.type = seq2seq
+2018-01-28 14:38:45,690 - INFO - allennlp.common.params - dataset_reader.source_tokenizer = None
+2018-01-28 14:38:45,691 - INFO - allennlp.common.params - dataset_reader.target_tokenizer = None
+2018-01-28 14:38:45,691 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.type = single_id
+2018-01-28 14:38:45,691 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.namespace = source_tokens
+2018-01-28 14:38:45,691 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:38:45,691 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.type = single_id
+2018-01-28 14:38:45,691 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.namespace = target_tokens
+2018-01-28 14:38:45,691 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:38:48,249 - INFO - allennlp.common.params - train_data_path = /Users/leoliu/hyak_training_package/WebQA/corpus/demo_train.tsv
+2018-01-28 14:38:48,249 - INFO - allennlp.commands.train - Reading training data from /Users/leoliu/hyak_training_package/WebQA/corpus/demo_train.tsv
+2018-01-28 14:38:48,250 - INFO - allennlp.data.dataset_readers.seq2seq - Reading instances from lines in file at: /Users/leoliu/hyak_training_package/WebQA/corpus/demo_train.tsv
+2018-01-28 14:38:48,371 - INFO - allennlp.common.params - validation_data_path = /Users/leoliu/hyak_training_package/WebQA/corpus/demo_dev.tsv
+2018-01-28 14:38:48,371 - INFO - allennlp.commands.train - Reading validation data from /Users/leoliu/hyak_training_package/WebQA/corpus/demo_dev.tsv
+2018-01-28 14:38:48,371 - INFO - allennlp.data.dataset_readers.seq2seq - Reading instances from lines in file at: /Users/leoliu/hyak_training_package/WebQA/corpus/demo_dev.tsv
+2018-01-28 14:38:48,400 - INFO - allennlp.common.params - test_data_path = None
+2018-01-28 14:38:48,400 - INFO - allennlp.commands.train - Creating a vocabulary using train, validation data.
+2018-01-28 14:38:48,400 - INFO - allennlp.common.params - vocabulary.directory_path = None
+2018-01-28 14:38:48,400 - INFO - allennlp.common.params - vocabulary.min_count = 1
+2018-01-28 14:38:48,400 - INFO - allennlp.common.params - vocabulary.max_vocab_size = None
+2018-01-28 14:38:48,400 - INFO - allennlp.common.params - vocabulary.non_padded_namespaces = ('*tags', '*labels')
+2018-01-28 14:38:48,401 - INFO - allennlp.data.vocabulary - Fitting token dictionary from dataset.
+2018-01-28 14:38:48,402 - WARNING - root - vocabulary serialization directory /Users/leoliu/GitHub/WebQA/models/vocabulary is not empty
+2018-01-28 14:38:48,404 - INFO - allennlp.common.params - model.type = simple_seq2seq
+2018-01-28 14:38:48,404 - INFO - allennlp.common.params - model.source_embedder.type = basic
+2018-01-28 14:38:48,404 - INFO - allennlp.common.params - model.source_embedder.tokens.type = embedding
+2018-01-28 14:38:48,404 - INFO - allennlp.common.params - model.source_embedder.tokens.num_embeddings = None
+2018-01-28 14:38:48,404 - INFO - allennlp.common.params - model.source_embedder.tokens.vocab_namespace = source_tokens
+2018-01-28 14:38:48,405 - INFO - allennlp.common.params - model.source_embedder.tokens.embedding_dim = 300
+2018-01-28 14:38:48,405 - INFO - allennlp.common.params - model.source_embedder.tokens.pretrained_file = None
+2018-01-28 14:38:48,405 - INFO - allennlp.common.params - model.source_embedder.tokens.projection_dim = None
+2018-01-28 14:38:48,405 - INFO - allennlp.common.params - model.source_embedder.tokens.trainable = True
+2018-01-28 14:38:48,405 - INFO - allennlp.common.params - model.source_embedder.tokens.padding_index = None
+2018-01-28 14:38:48,405 - INFO - allennlp.common.params - model.source_embedder.tokens.max_norm = None
+2018-01-28 14:38:48,405 - INFO - allennlp.common.params - model.source_embedder.tokens.norm_type = 2.0
+2018-01-28 14:38:48,405 - INFO - allennlp.common.params - model.source_embedder.tokens.scale_grad_by_freq = False
+2018-01-28 14:38:48,405 - INFO - allennlp.common.params - model.source_embedder.tokens.sparse = False
+2018-01-28 14:38:48,406 - INFO - allennlp.common.params - model.encoder.type = lstm
+2018-01-28 14:38:48,407 - INFO - allennlp.common.params - model.encoder.batch_first = True
+2018-01-28 14:38:48,407 - INFO - allennlp.common.params - Converting Params object to dict; logging of default values will not occur when dictionary parameters are used subsequently.
+2018-01-28 14:38:48,407 - INFO - allennlp.common.params - CURRENTLY DEFINED PARAMETERS: 
+2018-01-28 14:38:48,407 - INFO - allennlp.common.params - model.encoder.input_dim = 300
+2018-01-28 14:38:48,407 - INFO - allennlp.common.params - model.encoder.hidden_size = 400
+2018-01-28 14:38:48,407 - INFO - allennlp.common.params - model.encoder.num_layers = 5
+2018-01-28 14:38:48,407 - INFO - allennlp.common.params - model.encoder.batch_first = True
+2018-01-28 14:39:33,843 - INFO - allennlp.common.params - dataset_reader.type = seq2seq
+2018-01-28 14:39:33,843 - INFO - allennlp.common.params - dataset_reader.source_tokenizer = None
+2018-01-28 14:39:33,844 - INFO - allennlp.common.params - dataset_reader.target_tokenizer = None
+2018-01-28 14:39:33,844 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.type = single_id
+2018-01-28 14:39:33,844 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.namespace = source_tokens
+2018-01-28 14:39:33,844 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:39:33,844 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.type = single_id
+2018-01-28 14:39:33,844 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.namespace = target_tokens
+2018-01-28 14:39:33,844 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.lowercase_tokens = False
+2018-01-28 14:39:36,471 - INFO - allennlp.common.params - train_data_path = /Users/leoliu/hyak_training_package/WebQA/corpus/demo_train.tsv
+2018-01-28 14:39:36,472 - INFO - allennlp.commands.train - Reading training data from /Users/leoliu/hyak_training_package/WebQA/corpus/demo_train.tsv
+2018-01-28 14:39:36,472 - INFO - allennlp.data.dataset_readers.seq2seq - Reading instances from lines in file at: /Users/leoliu/hyak_training_package/WebQA/corpus/demo_train.tsv
+2018-01-28 14:39:36,593 - INFO - allennlp.common.params - validation_data_path = /Users/leoliu/hyak_training_package/WebQA/corpus/demo_dev.tsv
+2018-01-28 14:39:36,593 - INFO - allennlp.commands.train - Reading validation data from /Users/leoliu/hyak_training_package/WebQA/corpus/demo_dev.tsv
+2018-01-28 14:39:36,593 - INFO - allennlp.data.dataset_readers.seq2seq - Reading instances from lines in file at: /Users/leoliu/hyak_training_package/WebQA/corpus/demo_dev.tsv
+2018-01-28 14:39:36,623 - INFO - allennlp.common.params - test_data_path = None
+2018-01-28 14:39:36,623 - INFO - allennlp.commands.train - Creating a vocabulary using train, validation data.
+2018-01-28 14:39:36,623 - INFO - allennlp.common.params - vocabulary.directory_path = None
+2018-01-28 14:39:36,623 - INFO - allennlp.common.params - vocabulary.min_count = 1
+2018-01-28 14:39:36,623 - INFO - allennlp.common.params - vocabulary.max_vocab_size = None
+2018-01-28 14:39:36,623 - INFO - allennlp.common.params - vocabulary.non_padded_namespaces = ('*tags', '*labels')
+2018-01-28 14:39:36,623 - INFO - allennlp.data.vocabulary - Fitting token dictionary from dataset.
+2018-01-28 14:39:36,625 - WARNING - root - vocabulary serialization directory /Users/leoliu/GitHub/WebQA/models/vocabulary is not empty
+2018-01-28 14:39:36,627 - INFO - allennlp.common.params - model.type = simple_seq2seq
+2018-01-28 14:39:36,627 - INFO - allennlp.common.params - model.source_embedder.type = basic
+2018-01-28 14:39:36,627 - INFO - allennlp.common.params - model.source_embedder.tokens.type = embedding
+2018-01-28 14:39:36,627 - INFO - allennlp.common.params - model.source_embedder.tokens.num_embeddings = None
+2018-01-28 14:39:36,627 - INFO - allennlp.common.params - model.source_embedder.tokens.vocab_namespace = source_tokens
+2018-01-28 14:39:36,627 - INFO - allennlp.common.params - model.source_embedder.tokens.embedding_dim = 300
+2018-01-28 14:39:36,628 - INFO - allennlp.common.params - model.source_embedder.tokens.pretrained_file = None
+2018-01-28 14:39:36,628 - INFO - allennlp.common.params - model.source_embedder.tokens.projection_dim = None
+2018-01-28 14:39:36,628 - INFO - allennlp.common.params - model.source_embedder.tokens.trainable = True
+2018-01-28 14:39:36,628 - INFO - allennlp.common.params - model.source_embedder.tokens.padding_index = None
+2018-01-28 14:39:36,628 - INFO - allennlp.common.params - model.source_embedder.tokens.max_norm = None
+2018-01-28 14:39:36,628 - INFO - allennlp.common.params - model.source_embedder.tokens.norm_type = 2.0
+2018-01-28 14:39:36,628 - INFO - allennlp.common.params - model.source_embedder.tokens.scale_grad_by_freq = False
+2018-01-28 14:39:36,628 - INFO - allennlp.common.params - model.source_embedder.tokens.sparse = False
+2018-01-28 14:39:36,629 - INFO - allennlp.common.params - model.encoder.type = lstm
+2018-01-28 14:39:36,629 - INFO - allennlp.common.params - model.encoder.batch_first = True
+2018-01-28 14:39:36,630 - INFO - allennlp.common.params - Converting Params object to dict; logging of default values will not occur when dictionary parameters are used subsequently.
+2018-01-28 14:39:36,630 - INFO - allennlp.common.params - CURRENTLY DEFINED PARAMETERS: 
+2018-01-28 14:39:36,630 - INFO - allennlp.common.params - model.encoder.input_size = 300
+2018-01-28 14:39:36,630 - INFO - allennlp.common.params - model.encoder.hidden_size = 200
+2018-01-28 14:39:36,630 - INFO - allennlp.common.params - model.encoder.num_layers = 5
+2018-01-28 14:39:36,630 - INFO - allennlp.common.params - model.encoder.batch_first = True
+2018-01-28 14:39:36,651 - INFO - allennlp.common.params - model.max_decoding_steps = 400
+2018-01-28 14:39:36,651 - INFO - allennlp.common.params - model.target_namespace = target_tokens
+2018-01-28 14:39:36,651 - INFO - allennlp.common.params - model.attention_function.type = dot_product
+2018-01-28 14:39:36,651 - INFO - allennlp.common.params - model.attention_function.scale_output = False
+2018-01-28 14:39:36,651 - INFO - allennlp.common.params - model.scheduled_sampling_ratio = 0.0
+2018-01-28 14:39:36,659 - INFO - allennlp.common.params - iterator.type = bucket
+2018-01-28 14:39:36,659 - INFO - allennlp.common.params - iterator.sorting_keys = []
+2018-01-28 14:39:36,659 - INFO - allennlp.common.params - iterator.padding_noise = 0.1
+2018-01-28 14:39:36,659 - INFO - allennlp.common.params - iterator.biggest_batch_first = False
+2018-01-28 14:39:36,659 - INFO - allennlp.common.params - iterator.batch_size = 100
+2018-01-28 14:39:36,660 - INFO - allennlp.data.dataset - Indexing dataset
+2018-01-28 14:39:36,661 - INFO - allennlp.data.dataset - Indexing dataset
+2018-01-28 14:39:36,662 - INFO - allennlp.common.params - trainer.patience = 10
+2018-01-28 14:39:36,662 - INFO - allennlp.common.params - trainer.validation_metric = -loss
+2018-01-28 14:39:36,662 - INFO - allennlp.common.params - trainer.num_epochs = 20
+2018-01-28 14:39:36,662 - INFO - allennlp.common.params - trainer.cuda_device = -1
+2018-01-28 14:39:36,662 - INFO - allennlp.common.params - trainer.grad_norm = None
+2018-01-28 14:39:36,663 - INFO - allennlp.common.params - trainer.grad_clipping = None
+2018-01-28 14:39:36,663 - INFO - allennlp.common.params - trainer.learning_rate_scheduler = None
+2018-01-28 14:39:36,663 - INFO - allennlp.common.params - trainer.optimizer.type = adam
+2018-01-28 14:39:36,663 - INFO - allennlp.common.params - Converting Params object to dict; logging of default values will not occur when dictionary parameters are used subsequently.
+2018-01-28 14:39:36,663 - INFO - allennlp.common.params - CURRENTLY DEFINED PARAMETERS: 
+2018-01-28 14:39:36,663 - INFO - allennlp.common.params - trainer.optimizer.lr = 0.01
+2018-01-28 14:39:36,663 - INFO - allennlp.common.params - trainer.no_tqdm = False
+2018-01-28 14:39:36,666 - INFO - allennlp.common.params - evaluate_on_test = False
+2018-01-28 14:39:36,666 - INFO - allennlp.training.trainer - Beginning training.
+2018-01-28 14:39:36,666 - INFO - allennlp.training.trainer - Epoch 0/19
+2018-01-28 14:39:36,667 - INFO - allennlp.training.trainer - Training
+2018-01-28 14:39:37,925 - INFO - allennlp.training.trainer - Validating
+2018-01-28 14:39:38,180 - INFO - allennlp.training.trainer - Best validation performance so far. Copying weights to '/Users/leoliu/GitHub/WebQA/models/best.th'.
+2018-01-28 14:39:38,217 - INFO - allennlp.training.trainer - Training loss : 4.562250    Validation loss : 4.472536 
+2018-01-28 14:39:38,218 - INFO - allennlp.training.trainer - Epoch duration: 00:00:01
+2018-01-28 14:39:38,218 - INFO - allennlp.training.trainer - Estimated training time remaining: 00:00:29
+2018-01-28 14:39:38,218 - INFO - allennlp.training.trainer - Epoch 1/19
+2018-01-28 14:39:38,219 - INFO - allennlp.training.trainer - Training
+2018-01-28 14:39:39,280 - INFO - allennlp.training.trainer - Validating
+2018-01-28 14:39:39,537 - INFO - allennlp.training.trainer - Training loss : 3.615164    Validation loss : 4.548796 
+2018-01-28 14:39:39,538 - INFO - allennlp.training.trainer - Epoch duration: 00:00:01
+2018-01-28 14:39:39,538 - INFO - allennlp.training.trainer - Estimated training time remaining: 00:00:25
+2018-01-28 14:39:39,538 - INFO - allennlp.training.trainer - Epoch 2/19
+2018-01-28 14:39:39,539 - INFO - allennlp.training.trainer - Training
+2018-01-28 14:39:40,531 - INFO - allennlp.training.trainer - Validating
+2018-01-28 14:39:40,813 - INFO - allennlp.training.trainer - Training loss : 2.528951    Validation loss : 5.950284 
+2018-01-28 14:39:40,814 - INFO - allennlp.training.trainer - Epoch duration: 00:00:01
+2018-01-28 14:39:40,814 - INFO - allennlp.training.trainer - Estimated training time remaining: 00:00:23
+2018-01-28 14:39:40,814 - INFO - allennlp.training.trainer - Epoch 3/19
+2018-01-28 14:39:40,814 - INFO - allennlp.training.trainer - Training
+2018-01-28 14:39:41,951 - INFO - allennlp.training.trainer - Validating
+2018-01-28 14:39:42,203 - INFO - allennlp.training.trainer - Training loss : 2.134014    Validation loss : 5.521878 
+2018-01-28 14:39:42,203 - INFO - allennlp.training.trainer - Epoch duration: 00:00:01
+2018-01-28 14:39:42,203 - INFO - allennlp.training.trainer - Estimated training time remaining: 00:00:22
+2018-01-28 14:39:42,204 - INFO - allennlp.training.trainer - Epoch 4/19
+2018-01-28 14:39:42,204 - INFO - allennlp.training.trainer - Training
+2018-01-28 14:39:43,432 - INFO - allennlp.training.trainer - Validating
+2018-01-28 14:39:43,789 - INFO - allennlp.training.trainer - Training loss : 1.157225    Validation loss : 6.334446 
+2018-01-28 14:39:43,790 - INFO - allennlp.training.trainer - Epoch duration: 00:00:01
+2018-01-28 14:39:43,790 - INFO - allennlp.training.trainer - Estimated training time remaining: 00:00:21
+2018-01-28 14:39:43,790 - INFO - allennlp.training.trainer - Epoch 5/19
+2018-01-28 14:39:43,792 - INFO - allennlp.training.trainer - Training
+2018-01-28 14:39:44,981 - INFO - allennlp.training.trainer - Validating
+2018-01-28 14:39:45,240 - INFO - allennlp.training.trainer - Training loss : 0.724816    Validation loss : 7.245987 
+2018-01-28 14:39:45,241 - INFO - allennlp.training.trainer - Epoch duration: 00:00:01
+2018-01-28 14:39:45,241 - INFO - allennlp.training.trainer - Estimated training time remaining: 00:00:20
+2018-01-28 14:39:45,241 - INFO - allennlp.training.trainer - Epoch 6/19
+2018-01-28 14:39:45,242 - INFO - allennlp.training.trainer - Training
+2018-01-28 14:39:46,303 - INFO - allennlp.training.trainer - Validating
+2018-01-28 14:39:46,553 - INFO - allennlp.training.trainer - Training loss : 0.424273    Validation loss : 8.082755 
+2018-01-28 14:39:46,553 - INFO - allennlp.training.trainer - Epoch duration: 00:00:01
+2018-01-28 14:39:46,553 - INFO - allennlp.training.trainer - Estimated training time remaining: 00:00:18
+2018-01-28 14:39:46,554 - INFO - allennlp.training.trainer - Epoch 7/19
+2018-01-28 14:39:46,554 - INFO - allennlp.training.trainer - Training
+2018-01-28 14:39:47,579 - INFO - allennlp.training.trainer - Validating
+2018-01-28 14:39:47,820 - INFO - allennlp.training.trainer - Training loss : 0.239433    Validation loss : 9.540315 
+2018-01-28 14:39:47,821 - INFO - allennlp.training.trainer - Epoch duration: 00:00:01
+2018-01-28 14:39:47,821 - INFO - allennlp.training.trainer - Estimated training time remaining: 00:00:16
+2018-01-28 14:39:47,822 - INFO - allennlp.training.trainer - Epoch 8/19
+2018-01-28 14:39:47,822 - INFO - allennlp.training.trainer - Training
+2018-01-28 14:39:48,845 - INFO - allennlp.training.trainer - Validating
+2018-01-28 14:39:49,133 - INFO - allennlp.training.trainer - Training loss : 0.149358    Validation loss : 8.569012 
+2018-01-28 14:39:49,134 - INFO - allennlp.training.trainer - Epoch duration: 00:00:01
+2018-01-28 14:39:49,134 - INFO - allennlp.training.trainer - Estimated training time remaining: 00:00:15
+2018-01-28 14:39:49,134 - INFO - allennlp.training.trainer - Epoch 9/19
+2018-01-28 14:39:49,135 - INFO - allennlp.training.trainer - Training
+2018-01-28 14:39:50,234 - INFO - allennlp.training.trainer - Validating
+2018-01-28 14:39:50,498 - INFO - allennlp.training.trainer - Training loss : 0.107091    Validation loss : 9.086575 
+2018-01-28 14:39:50,499 - INFO - allennlp.training.trainer - Epoch duration: 00:00:01
+2018-01-28 14:39:50,499 - INFO - allennlp.training.trainer - Estimated training time remaining: 00:00:13
+2018-01-28 14:39:50,499 - INFO - allennlp.training.trainer - Epoch 10/19
+2018-01-28 14:39:50,500 - INFO - allennlp.training.trainer - Training
+2018-01-28 14:39:51,529 - INFO - allennlp.training.trainer - Validating
+2018-01-28 14:39:51,742 - INFO - allennlp.training.trainer - Ran out of patience.  Stopping training.
+2018-01-28 14:39:51,742 - INFO - allennlp.models.archival - archiving weights and vocabulary to /Users/leoliu/GitHub/WebQA/models/model.tar.gz

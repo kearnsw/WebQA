@@ -1,0 +1,215 @@
+Traceback (most recent call last):
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/Users/leoliu/allennlp/allennlp/run.py", line 13, in <module>
+    main(prog="python -m allennlp.run")
+  File "/Users/leoliu/allennlp/allennlp/commands/__init__.py", line 70, in main
+    args.func(args)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 66, in train_model_from_args
+    train_model_from_file(args.param_path, args.serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 82, in train_model_from_file
+    return train_model(params, serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 121, in train_model
+    train_data = dataset_reader.read(train_data_path)
+  File "/Users/leoliu/allennlp/allennlp/data/dataset_readers/seq2seq.py", line 62, in read
+    with open(file_path, "r") as data_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/hyak_training_package/WebQA/corpus/demo_train.tsv'
+Traceback (most recent call last):
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/Users/leoliu/allennlp/allennlp/run.py", line 13, in <module>
+    main(prog="python -m allennlp.run")
+  File "/Users/leoliu/allennlp/allennlp/commands/__init__.py", line 70, in main
+    args.func(args)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 66, in train_model_from_args
+    train_model_from_file(args.param_path, args.serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 82, in train_model_from_file
+    return train_model(params, serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 121, in train_model
+    train_data = dataset_reader.read(train_data_path)
+  File "/Users/leoliu/allennlp/allennlp/data/dataset_readers/seq2seq.py", line 62, in read
+    with open(file_path, "r") as data_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'test/WebQA/corpus/demo_train.tsv'
+Traceback (most recent call last):
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/Users/leoliu/allennlp/allennlp/run.py", line 13, in <module>
+    main(prog="python -m allennlp.run")
+  File "/Users/leoliu/allennlp/allennlp/commands/__init__.py", line 70, in main
+    args.func(args)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 66, in train_model_from_args
+    train_model_from_file(args.param_path, args.serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 82, in train_model_from_file
+    return train_model(params, serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 121, in train_model
+    train_data = dataset_reader.read(train_data_path)
+  File "/Users/leoliu/allennlp/allennlp/data/dataset_readers/seq2seq.py", line 62, in read
+    with open(file_path, "r") as data_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'tests/WebQA/corpus/demo_train.tsv'
+Traceback (most recent call last):
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/Users/leoliu/allennlp/allennlp/run.py", line 13, in <module>
+    main(prog="python -m allennlp.run")
+  File "/Users/leoliu/allennlp/allennlp/commands/__init__.py", line 70, in main
+    args.func(args)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 66, in train_model_from_args
+    train_model_from_file(args.param_path, args.serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 82, in train_model_from_file
+    return train_model(params, serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 121, in train_model
+    train_data = dataset_reader.read(train_data_path)
+  File "/Users/leoliu/allennlp/allennlp/data/dataset_readers/seq2seq.py", line 62, in read
+    with open(file_path, "r") as data_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/allennlp/tests/WebQA/corpus/demo_train.tsv'
+Traceback (most recent call last):
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/Users/leoliu/allennlp/allennlp/run.py", line 13, in <module>
+    main(prog="python -m allennlp.run")
+  File "/Users/leoliu/allennlp/allennlp/commands/__init__.py", line 70, in main
+    args.func(args)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 66, in train_model_from_args
+    train_model_from_file(args.param_path, args.serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 82, in train_model_from_file
+    return train_model(params, serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 121, in train_model
+    train_data = dataset_reader.read(train_data_path)
+  File "/Users/leoliu/allennlp/allennlp/data/dataset_readers/seq2seq.py", line 62, in read
+    with open(file_path, "r") as data_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/allennlp/tests/WebQA/corpus/demo_train.tsv'
+0it [00:00, ?it/s]3it [00:00, 25.45it/s]
+0it [00:00, ?it/s]1it [00:00, 34.69it/s]
+  0%|          | 0/4 [00:00<?, ?it/s]100%|##########| 4/4 [00:00<00:00, 5310.93it/s]
+Traceback (most recent call last):
+  File "/Users/leoliu/allennlp/allennlp/common/params.py", line 63, in pop
+    value = self.params.pop(key)
+KeyError: 'embedding_dim'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/Users/leoliu/allennlp/allennlp/run.py", line 13, in <module>
+    main(prog="python -m allennlp.run")
+  File "/Users/leoliu/allennlp/allennlp/commands/__init__.py", line 70, in main
+    args.func(args)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 66, in train_model_from_args
+    train_model_from_file(args.param_path, args.serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 82, in train_model_from_file
+    return train_model(params, serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 150, in train_model
+    model = Model.from_params(vocab, params.pop('model'))
+  File "/Users/leoliu/allennlp/allennlp/models/model.py", line 160, in from_params
+    model = cls.by_name(choice).from_params(vocab, params)
+  File "/Users/leoliu/allennlp/allennlp/models/encoder_decoders/simple_seq2seq.py", line 292, in from_params
+    source_embedder = TextFieldEmbedder.from_params(vocab, source_embedder_params)
+  File "/Users/leoliu/allennlp/allennlp/modules/text_field_embedders/text_field_embedder.py", line 42, in from_params
+    return cls.by_name(choice).from_params(vocab, params)
+  File "/Users/leoliu/allennlp/allennlp/modules/text_field_embedders/basic_text_field_embedder.py", line 57, in from_params
+    token_embedders[key] = TokenEmbedder.from_params(vocab, embedder_params)
+  File "/Users/leoliu/allennlp/allennlp/modules/token_embedders/token_embedder.py", line 32, in from_params
+    return cls.by_name(choice).from_params(vocab, params)
+  File "/Users/leoliu/allennlp/allennlp/modules/token_embedders/embedding.py", line 141, in from_params
+    embedding_dim = params.pop('embedding_dim')
+  File "/Users/leoliu/allennlp/allennlp/common/params.py", line 65, in pop
+    raise ConfigurationError("key \"{}\" is required at location \"{}\"".format(key, self.history))
+allennlp.common.checks.ConfigurationError: 'key "embedding_dim" is required at location "model.source_embedder.tokens."'
+0it [00:00, ?it/s]3it [00:00, 25.70it/s]
+0it [00:00, ?it/s]1it [00:00, 35.75it/s]
+  0%|          | 0/4 [00:00<?, ?it/s]100%|##########| 4/4 [00:00<00:00, 5162.22it/s]
+Traceback (most recent call last):
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/Users/leoliu/allennlp/allennlp/run.py", line 13, in <module>
+    main(prog="python -m allennlp.run")
+  File "/Users/leoliu/allennlp/allennlp/commands/__init__.py", line 70, in main
+    args.func(args)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 66, in train_model_from_args
+    train_model_from_file(args.param_path, args.serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 82, in train_model_from_file
+    return train_model(params, serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 150, in train_model
+    model = Model.from_params(vocab, params.pop('model'))
+  File "/Users/leoliu/allennlp/allennlp/models/model.py", line 160, in from_params
+    model = cls.by_name(choice).from_params(vocab, params)
+  File "/Users/leoliu/allennlp/allennlp/models/encoder_decoders/simple_seq2seq.py", line 293, in from_params
+    encoder = Seq2SeqEncoder.from_params(params.pop("encoder"))
+  File "/Users/leoliu/allennlp/allennlp/modules/seq2seq_encoders/seq2seq_encoder.py", line 34, in from_params
+    return cls.by_name(choice).from_params(params)
+  File "/Users/leoliu/allennlp/allennlp/modules/seq2seq_encoders/intra_sentence_attention.py", line 132, in from_params
+    params.assert_empty(cls.__name__)
+  File "/Users/leoliu/allennlp/allennlp/common/params.py", line 162, in assert_empty
+    raise ConfigurationError("Extra parameters passed to {}: {}".format(class_name, self.params))
+allennlp.common.checks.ConfigurationError: "Extra parameters passed to IntraSentenceAttentionEncoder: ConfigTree([('hidden_size', 400), ('num_layers', 5)])"
+0it [00:00, ?it/s]3it [00:00, 25.44it/s]
+0it [00:00, ?it/s]1it [00:00, 35.28it/s]
+  0%|          | 0/4 [00:00<?, ?it/s]100%|##########| 4/4 [00:00<00:00, 4678.53it/s]
+Traceback (most recent call last):
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/Users/leoliu/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/Users/leoliu/allennlp/allennlp/run.py", line 13, in <module>
+    main(prog="python -m allennlp.run")
+  File "/Users/leoliu/allennlp/allennlp/commands/__init__.py", line 70, in main
+    args.func(args)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 66, in train_model_from_args
+    train_model_from_file(args.param_path, args.serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 82, in train_model_from_file
+    return train_model(params, serialization_dir)
+  File "/Users/leoliu/allennlp/allennlp/commands/train.py", line 150, in train_model
+    model = Model.from_params(vocab, params.pop('model'))
+  File "/Users/leoliu/allennlp/allennlp/models/model.py", line 160, in from_params
+    model = cls.by_name(choice).from_params(vocab, params)
+  File "/Users/leoliu/allennlp/allennlp/models/encoder_decoders/simple_seq2seq.py", line 293, in from_params
+    encoder = Seq2SeqEncoder.from_params(params.pop("encoder"))
+  File "/Users/leoliu/allennlp/allennlp/modules/seq2seq_encoders/seq2seq_encoder.py", line 34, in from_params
+    return cls.by_name(choice).from_params(params)
+  File "/Users/leoliu/allennlp/allennlp/modules/seq2seq_encoders/__init__.py", line 71, in from_params
+    module = self._module_class(**params.as_dict())
+  File "/Users/leoliu/anaconda3/lib/python3.6/site-packages/torch/nn/modules/rnn.py", line 365, in __init__
+    super(LSTM, self).__init__('LSTM', *args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'input_dim'
+0it [00:00, ?it/s]3it [00:00, 25.41it/s]
+0it [00:00, ?it/s]1it [00:00, 34.75it/s]
+  0%|          | 0/4 [00:00<?, ?it/s]100%|##########| 4/4 [00:00<00:00, 5154.29it/s]
+  0%|          | 0/3 [00:00<?, ?it/s]100%|##########| 3/3 [00:00<00:00, 3617.86it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|##########| 1/1 [00:00<00:00, 4809.98it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 4.56 ||:   0%|          | 0/1 [00:01<?, ?it/s]loss: 4.56 ||: 100%|##########| 1/1 [00:01<00:00,  1.24s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 4.47 ||:   0%|          | 0/1 [00:00<?, ?it/s]loss: 4.47 ||: 100%|##########| 1/1 [00:00<00:00,  5.07it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 3.62 ||:   0%|          | 0/1 [00:01<?, ?it/s]loss: 3.62 ||: 100%|##########| 1/1 [00:01<00:00,  1.05s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 4.55 ||:   0%|          | 0/1 [00:00<?, ?it/s]loss: 4.55 ||: 100%|##########| 1/1 [00:00<00:00,  4.96it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 2.53 ||:   0%|          | 0/1 [00:00<?, ?it/s]loss: 2.53 ||: 100%|##########| 1/1 [00:00<00:00,  1.02it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 5.95 ||:   0%|          | 0/1 [00:00<?, ?it/s]loss: 5.95 ||: 100%|##########| 1/1 [00:00<00:00,  4.46it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 2.13 ||:   0%|          | 0/1 [00:01<?, ?it/s]loss: 2.13 ||: 100%|##########| 1/1 [00:01<00:00,  1.12s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 5.52 ||:   0%|          | 0/1 [00:00<?, ?it/s]loss: 5.52 ||: 100%|##########| 1/1 [00:00<00:00,  5.34it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 1.16 ||:   0%|          | 0/1 [00:01<?, ?it/s]loss: 1.16 ||: 100%|##########| 1/1 [00:01<00:00,  1.21s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 6.33 ||:   0%|          | 0/1 [00:00<?, ?it/s]loss: 6.33 ||: 100%|##########| 1/1 [00:00<00:00,  3.39it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 0.72 ||:   0%|          | 0/1 [00:01<?, ?it/s]loss: 0.72 ||: 100%|##########| 1/1 [00:01<00:00,  1.18s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 7.25 ||:   0%|          | 0/1 [00:00<?, ?it/s]loss: 7.25 ||: 100%|##########| 1/1 [00:00<00:00,  5.01it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 0.42 ||:   0%|          | 0/1 [00:01<?, ?it/s]loss: 0.42 ||: 100%|##########| 1/1 [00:01<00:00,  1.05s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 8.08 ||:   0%|          | 0/1 [00:00<?, ?it/s]loss: 8.08 ||: 100%|##########| 1/1 [00:00<00:00,  5.16it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 0.24 ||:   0%|          | 0/1 [00:01<?, ?it/s]loss: 0.24 ||: 100%|##########| 1/1 [00:01<00:00,  1.01s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 9.54 ||:   0%|          | 0/1 [00:00<?, ?it/s]loss: 9.54 ||: 100%|##########| 1/1 [00:00<00:00,  5.38it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 0.15 ||:   0%|          | 0/1 [00:01<?, ?it/s]loss: 0.15 ||: 100%|##########| 1/1 [00:01<00:00,  1.01s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 8.57 ||:   0%|          | 0/1 [00:00<?, ?it/s]loss: 8.57 ||: 100%|##########| 1/1 [00:00<00:00,  4.44it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 0.11 ||:   0%|          | 0/1 [00:01<?, ?it/s]loss: 0.11 ||: 100%|##########| 1/1 [00:01<00:00,  1.08s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 9.09 ||:   0%|          | 0/1 [00:00<?, ?it/s]loss: 9.09 ||: 100%|##########| 1/1 [00:00<00:00,  4.81it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 0.09 ||:   0%|          | 0/1 [00:01<?, ?it/s]loss: 0.09 ||: 100%|##########| 1/1 [00:01<00:00,  1.01s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 10.16 ||:   0%|          | 0/1 [00:00<?, ?it/s]loss: 10.16 ||: 100%|##########| 1/1 [00:00<00:00,  4.86it/s]
