@@ -9,8 +9,14 @@ python setup.py develop
 
 ## Preprocess Forum Posts
 
-`python -m WebQA.pages.Medhelp -d "/data/www.medhelp.org" -o "qa.pkl"`
-`python -m WebQA.pages.Healthtap -d "/data/www.healthtap.com" -o "qa.pkl"`
+``` shell 
+python -m WebQA.pages.Medhelp -d "/data/www.medhelp.org" -o "qa.pkl"
+```
+
+```shell
+python -m WebQA.pages.Healthtap -d "/data/www.healthtap.com" -o "qa.pkl"
+```
+
 
 ## QA_Page
 
