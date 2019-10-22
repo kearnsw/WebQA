@@ -2,8 +2,6 @@ import os
 import pickle as pkl
 import sys
 from multiprocessing import Pool, cpu_count
-from WebQA.pages.Healthtap import HealthtapPage
-from WebQA.pages.Medhelp import MedhelpPage
 import pandas as pd
 import spacy
 from gensim.models import Word2Vec
